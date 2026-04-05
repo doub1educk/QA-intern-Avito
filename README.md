@@ -53,8 +53,9 @@ TC-automization-avito/
 Откройте терминал и выполните:
 
 ```bash
-git clone https://github.com/doub1educk/QA-intern-Avito
-cd QA-intern-Avito
+git clone https://github.com/doub1educk/QA-intern-Avito #Клонирование репозитория
+cd QA-intern-Avito # Переход в папку с клоном репозитория
+code . # ОТКРЫТИЕ ПРОЕКТА В IDE
 ``` 
 > **Примечание:** Если Git не установлен, скачайте проект архивом (нажмите кнопку **Code** -> **Download ZIP**) и распакуйте его на вашем компьютере.
 
