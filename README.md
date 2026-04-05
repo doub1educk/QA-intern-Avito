@@ -53,9 +53,13 @@ TC-automization-avito/
 Откройте терминал и выполните:
 
 ```bash
-git clone https://github.com/doub1educk/QA-intern-Avito #Клонирование репозитория
-cd QA-intern-Avito # Переход в папку с клоном репозитория
-code . # ОТКРЫТИЕ ПРОЕКТА В IDE
+#Клонирование репозитория
+git clone https://github.com/doub1educk/QA-intern-Avito
+# Переход в папку с клоном репозитория 
+cd QA-intern-Avito
+# Открытие проекта в IDE(ОПЦИОНАЛЬНО) 
+code .
+Далее если вы открыли проект в IDE, выполните Ctrl+shift+` для откртыие терминала прямо в IDE
 ``` 
 > **Примечание:** Если Git не установлен, скачайте проект архивом (нажмите кнопку **Code** -> **Download ZIP**) и распакуйте его на вашем компьютере.
 
@@ -78,6 +82,7 @@ npx playwright install
 | Сценарий запуска | Команда |
 | :--- | :--- |
 | **Все тесты (Headless)** | `npx playwright test` |
+| **Все тесты (Для просмотра прямой работы в браузере(не рекомендуется))** | `npx playwright test --headed` |
 | **Интерактивный режим (UI)** | `npx playwright test --ui` |
 | **Конкретный файл** | `npx playwright test tests/themeTests/themeSwitch.spec.ts` |
 | **Тест по названию (-g)** | `npx playwright test -g "Нажатие «Обновить»"` |
